@@ -11,14 +11,15 @@ var paths = {
 	"angular" : "libs/angularjs/1.2.13/angular.min",
 	"angularResource" : "libs/angularjs/1.2.13/angularResource.min",
 	"angularRoute" : "libs/angularjs/1.2.13/angularRoute.min",
-	"angularMocks" : "libs/angularjs/1.2.13/angular-mocks.min",
 	"cssInjector" : "libs/angular-css-injector",
 	"angularAMD" : "libs/angularAMD",
+	"angularMocks" : "libs/angularjs/1.2.13/angular-mocks.min",
 	"jQuery" : "libs/jquery-1.7.1.min",
 	"initializer" : "app/initializer",
 	"productListController" : "app/entries/product/productListController",
 	"bootstraper" : "app/bootstraper",
-	"routes" : "app/routes"
+	"routes" : "app/routes",
+	'productController' : 'app/controllers/productController'
 };
 
 var dependencies = {
