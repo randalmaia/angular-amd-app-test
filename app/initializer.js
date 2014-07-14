@@ -1,5 +1,5 @@
 var isTesting = true;
-define( [ 'angularAMD', 'angularResource', 'angularMocks','cssInjector' ], function(angularAMD) {
+define( [ 'angularAMD', 'angularResource','cssInjector' ], function(angularAMD) {
 	var app = angular.module( 'app', [ 'ngRoute', 'ngResource', 'angular.css.injector' ] );
 
 	app.run( function($rootScope, $templateCache) {
